@@ -1,5 +1,5 @@
 {
-    "manifest_version": 1,
+    "manifest_version": 3,
     "name": "Phone Number Converter Extension",
     "description": "An extension that converts phone numbers to a standard format.",
     "version": "1.0.0",
@@ -7,10 +7,10 @@
         "default_popup": "popup/popup.html"
     },
     "icons": {
-        "16": "icons/icon-16.png",
-        "32": "icons/icon-32.png",
-        "48": "icons/icon-48.png",
-        "128": "icons/icon-128.png"
+        "16": "images/icon-16.png",
+        "32": "images/icon-32.png",
+        "48": "images/icon-48.png",
+        "128": "images/icon-128.png"
     },
     "background": {
         "service_worker": "background.js",
